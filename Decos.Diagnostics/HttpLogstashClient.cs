@@ -19,6 +19,7 @@ namespace Decos.Diagnostics
         private static readonly JsonSerializerSettings serializerSettings = new JsonSerializerSettings
         {
             NullValueHandling = NullValueHandling.Ignore,
+            ReferenceLoopHandling= ReferenceLoopHandling.Ignore,            
             ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver(),
             Converters = new List<JsonConverter>
             {
