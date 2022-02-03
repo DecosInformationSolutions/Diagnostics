@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>3.1.8</Version>
+    <Version>3.1.9</Version>
     <Authors>Laura Verdoes</Authors>
     <Company>Decos Information Solutions</Company>
     <Description>Provides extension methods for registering the Decos.Diagnostics TraceSource implementation as services with the Microsoft.Extensions.DependencyInjection framework.</Description>
